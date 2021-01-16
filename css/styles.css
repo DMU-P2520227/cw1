@@ -1,0 +1,51 @@
+/*Add your styles here*/
+body{
+/*this will chnage the background colour of the page and the font*/
+  background-color: brown;
+  font-family:cursive,fantasy,inherit,monospace,sans-serif,serif;
+}
+
+ul{
+  display: flex;
+  /*acts like a block element and layout content as if its in a flexbox model*/
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  /*the margin code helps keep the menu tab in line and for the text to sit in the middle*/
+  padding: 0;
+  overflow: hidden;
+}
+ul{
+  cursor: pointer;
+  padding: 10px;
+  /*sets the padding area at 10px*/
+}
+
+li{
+  display: inline-block;
+  /*the display code helps create horizontal menu tab*/
+  margin-right:0 0 20px 0;
+  /*the margin code helps keep the menu tab in line and for the text to sit in the middle*/
+}
+li a{
+  padding: 75px;
+    /*sets the padding area at 75px*/
+  background-color: white;
+}
+li a:hover{
+  background-color: black;
+}
+img{
+  max-width:100%;
+  height: auto;
+}
+video{
+  max-width:100%;
+  height: auto;
+}
+/*when you hover across the menu tab it will change the colour */
+footer{
+  background:brown;
+  padding: 30px 50px;
+    /*sets the padding area between 30px and 50px*/
+}
