@@ -1,6 +1,6 @@
 /*Add your styles here*/
 body{
-/*this will chnage the background colour of the page and the font*/
+/*this will change the background colour of the page and the font*/
   background-color: brown;
   font-family:cursive,fantasy,inherit,monospace,sans-serif,serif;
 }
@@ -32,17 +32,11 @@ li a{
     /*sets the padding area at 75px*/
   background-color: white;
 }
+/*When you hover across the navagation tab, it will turn black*/
 li a:hover{
   background-color: black;
 }
-img{
-  max-width:100%;
-  height: auto;
-}
-video{
-  max-width:100%;
-  height: auto;
-}
+
 /*when you hover across the menu tab it will change the colour */
 footer{
   background:brown;
